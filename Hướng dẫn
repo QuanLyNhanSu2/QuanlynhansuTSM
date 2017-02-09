@@ -1,0 +1,3 @@
+Trong Project có 6 5 branch trừ branch master được tạo giành riêng cho mỗi thanh viên tương ứng theo tên
+Các branch được sử dụng khi commit,Push dữ liệu lên trên kho quản lý. ( LƯU Ý: dùng đúng branch để TRÁNH XUNG ĐỘT)
+Sau khi commit có thể marge với các cặp có liên kết với nhau ví dụ Bạn A và bạn B làm dự án có phần chung có thể trao đổi và margin
