@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-DuongThan230896
-=======
-Duongnguyet
-BranchDN
->>>>>>> refs/remotes/origin/DuongNguyet
