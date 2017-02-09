@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-Duongnguyet
-Brach
-=======
-Demo2
->>>>>>> refs/remotes/origin/master
