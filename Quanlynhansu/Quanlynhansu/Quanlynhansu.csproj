@@ -61,6 +61,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\LuongCongTy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\LuongCongTy.Designer.cs">
+      <DependentUpon>LuongCongTy.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="View\Danhmuc.resx">
       <DependentUpon>Danhmuc.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,6 +82,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\LuongCongTy.resx">
+      <DependentUpon>LuongCongTy.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
