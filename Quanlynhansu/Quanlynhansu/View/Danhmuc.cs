@@ -16,15 +16,5 @@ namespace Quanlynhansu.View
         {
             InitializeComponent();
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            int id_NhanVien;
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                int selectIndex = dataGridView1.CurrentRow.Index;
-                id_NhanVien = dataGridView1["", selectIndex].Value;
-            }
-        }
     }
 }
