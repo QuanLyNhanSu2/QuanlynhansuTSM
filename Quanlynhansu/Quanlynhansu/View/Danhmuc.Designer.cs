@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button6 = new System.Windows.Forms.Button();
@@ -36,23 +40,36 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
@@ -62,23 +79,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.label21 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -136,6 +136,35 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin cơ bản";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(901, 88);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(142, 84);
+            this.richTextBox1.TabIndex = 7;
+            this.richTextBox1.Text = "";
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Location = new System.Drawing.Point(901, 50);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(142, 20);
+            this.dateTimePicker3.TabIndex = 6;
+            // 
+            // dateTimePicker4
+            // 
+            this.dateTimePicker4.Location = new System.Drawing.Point(653, 142);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(142, 20);
+            this.dateTimePicker4.TabIndex = 6;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(901, 26);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(142, 20);
+            this.dateTimePicker2.TabIndex = 6;
             // 
             // dateTimePicker1
             // 
@@ -198,6 +227,15 @@
             this.label14.TabIndex = 4;
             this.label14.Text = "Dân tộc";
             // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(579, 149);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(46, 13);
+            this.label22.TabIndex = 4;
+            this.label22.Text = "Ngày ký";
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -206,6 +244,42 @@
             this.label12.Size = new System.Drawing.Size(52, 13);
             this.label12.TabIndex = 4;
             this.label12.Text = "Số BHYT";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(823, 52);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(71, 13);
+            this.label19.TabIndex = 4;
+            this.label19.Text = "Ngày hết hạn";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(823, 26);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(72, 13);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Ngày vào làm";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(587, 88);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(47, 13);
+            this.label18.TabIndex = 4;
+            this.label18.Text = "Chức vụ";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(587, 29);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(64, 13);
+            this.label16.TabIndex = 4;
+            this.label16.Text = "Mã bộ phận";
             // 
             // label10
             // 
@@ -252,6 +326,24 @@
             this.label11.TabIndex = 4;
             this.label11.Text = "Số thẻ ATM";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(823, 88);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Ghi chú";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(587, 54);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(76, 13);
+            this.label15.TabIndex = 4;
+            this.label15.Text = "Mã phòng ban";
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -269,6 +361,15 @@
             this.label5.Size = new System.Drawing.Size(39, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Họ tên";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(587, 115);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(76, 13);
+            this.label21.TabIndex = 4;
+            this.label21.Text = "Loại hợp đồng";
             // 
             // textBox4
             // 
@@ -290,6 +391,20 @@
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(142, 20);
             this.textBox8.TabIndex = 1;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(653, 110);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(142, 20);
+            this.textBox13.TabIndex = 1;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(653, 52);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(142, 20);
+            this.textBox11.TabIndex = 1;
             // 
             // textBox6
             // 
@@ -319,6 +434,20 @@
             this.textBox7.Size = new System.Drawing.Size(142, 20);
             this.textBox7.TabIndex = 1;
             // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(653, 85);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(142, 20);
+            this.textBox12.TabIndex = 1;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(653, 26);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(142, 20);
+            this.textBox9.TabIndex = 1;
+            // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(431, 26);
@@ -332,6 +461,14 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(142, 20);
             this.textBox1.TabIndex = 1;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(431, 134);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(142, 21);
+            this.comboBox4.TabIndex = 0;
             // 
             // comboBox3
             // 
@@ -382,6 +519,7 @@
             this.button3.TabIndex = 1;
             this.button3.Text = "Xóa";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -418,143 +556,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1148, 237);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(431, 134);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(142, 21);
-            this.comboBox4.TabIndex = 0;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(653, 26);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(142, 20);
-            this.textBox9.TabIndex = 1;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(653, 52);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(142, 20);
-            this.textBox11.TabIndex = 1;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(587, 54);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(76, 13);
-            this.label15.TabIndex = 4;
-            this.label15.Text = "Mã phòng ban";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(587, 29);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(64, 13);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "Mã bộ phận";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(653, 85);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(142, 20);
-            this.textBox12.TabIndex = 1;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(587, 88);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(47, 13);
-            this.label18.TabIndex = 4;
-            this.label18.Text = "Chức vụ";
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(901, 26);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(142, 20);
-            this.dateTimePicker2.TabIndex = 6;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(823, 26);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(72, 13);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "Ngày vào làm";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(823, 52);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(71, 13);
-            this.label19.TabIndex = 4;
-            this.label19.Text = "Ngày hết hạn";
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(901, 50);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(142, 20);
-            this.dateTimePicker3.TabIndex = 6;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(587, 115);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(76, 13);
-            this.label21.TabIndex = 4;
-            this.label21.Text = "Loại hợp đồng";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(653, 110);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(142, 20);
-            this.textBox13.TabIndex = 1;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(579, 149);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(46, 13);
-            this.label22.TabIndex = 4;
-            this.label22.Text = "Ngày ký";
-            // 
-            // dateTimePicker4
-            // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(653, 142);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(142, 20);
-            this.dateTimePicker4.TabIndex = 6;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(823, 88);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Ghi chú";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(901, 88);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(142, 84);
-            this.richTextBox1.TabIndex = 7;
-            this.richTextBox1.Text = "";
             // 
             // Danhmuc
             // 

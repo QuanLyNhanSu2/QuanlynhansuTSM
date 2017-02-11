@@ -10,21 +10,24 @@ using System.Windows.Forms;
 
 namespace Quanlynhansu.View
 {
-    public partial class Danhmuc : UserControl
+    public partial class LuongCongTi : UserControl
     {
-        public Danhmuc()
+        public LuongCongTi()
         {
             InitializeComponent();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int id_NhanVien;
-            if (dataGridView1.SelectedRows.Count > 0)
+            int luongID = 0;
+            if(dataGridView1.SelectedRows.Count > 0)
             {
-                int selectIndex = dataGridView1.CurrentRow.Index;
-                id_NhanVien = dataGridView1["", selectIndex].Value;
+                int selectedIndex = dataGridView1.CurrentRow.Index;
+                luongID = int.Parse(dataGridView1["LuongID", selectedIndex].Value.ToString());
+
             }
+            string cm = "delete from Luong where LuongID =" + luongID;
+
         }
     }
 }
