@@ -18,3 +18,6 @@ D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynh
 D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Form1.resources
 D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Properties.Resources.resources
 D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe.config
+C:\Users\User\Desktop\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.exe
+C:\Users\User\Desktop\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.pdb
