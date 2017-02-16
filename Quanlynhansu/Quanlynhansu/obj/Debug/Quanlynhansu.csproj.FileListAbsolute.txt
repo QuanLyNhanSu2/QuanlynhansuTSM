@@ -18,3 +18,13 @@ D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynh
 D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Form1.resources
 D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Properties.Resources.resources
 D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csproj.GenerateResource.Cache
+F:\Thực tập nhóm_TH13\SRC\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe.config
+F:\Thực tập nhóm_TH13\SRC\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.exe
+F:\Thực tập nhóm_TH13\SRC\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.pdb
+F:\Thực tập nhóm_TH13\SRC\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe
+F:\Thực tập nhóm_TH13\SRC\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.pdb
+F:\Thực tập nhóm_TH13\SRC\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csprojResolveAssemblyReference.cache
+F:\Thực tập nhóm_TH13\SRC\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Danhmuc.resources
+F:\Thực tập nhóm_TH13\SRC\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Form1.resources
+F:\Thực tập nhóm_TH13\SRC\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Properties.Resources.resources
+F:\Thực tập nhóm_TH13\SRC\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csproj.GenerateResource.Cache

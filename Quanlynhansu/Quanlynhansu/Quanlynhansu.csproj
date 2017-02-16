@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helper\DataAccess.cs" />
+    <Compile Include="Model\ModelBase.cs" />
     <Compile Include="View\Danhmuc.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -91,7 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controller\" />
-    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
