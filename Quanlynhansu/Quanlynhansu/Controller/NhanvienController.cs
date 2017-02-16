@@ -10,5 +10,10 @@ namespace Quanlynhansu.Controller
     public class NhanvienController
     {
         public List<Nhanvien> LstNhanvien = new List<Nhanvien>();
+
+        public void AddNhanvien(Nhanvien nv)
+        {
+
+        }
     }
 }
