@@ -51,16 +51,8 @@
     <Compile Include="Core\ControllerBase.cs" />
     <Compile Include="Core\ModelBase.cs" />
     <Compile Include="Helper\DataAccess.cs" />
-<<<<<<< HEAD
     <Compile Include="Model\Nhanvien.cs" />
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
     <Compile Include="Model\User.cs" />
-=======
-    <Compile Include="Model\ModelBase.cs" />
-    <Compile Include="Model\NhanVien.cs" />
->>>>>>> DaoTuyen
     <Compile Include="View\Danhmuc.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -121,13 +113,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-<<<<<<< HEAD
   <ItemGroup />
-=======
-  <ItemGroup>
-    <Folder Include="Controller\" />
-  </ItemGroup>
->>>>>>> DaoTuyen
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
