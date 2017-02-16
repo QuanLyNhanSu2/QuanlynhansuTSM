@@ -25,25 +25,6 @@ namespace Quanlynhansu.View
 
         }
 
-        private void btnRegister_Click(object sender, EventArgs e)
-        {
-            Register register = new Register();
-            register.FormClosed += Register_FormClosed;
-            register.StartPosition = FormStartPosition.CenterScreen;
-            this.Hide();
-            register.Show();
-        }
-
-        private void Register_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            if(Register.registerOK)
-            {
-                txtUsername.Text = Register.user.Username;
-                txtPassword.Text = Register.user.Password;
-            }
-            this.Show();
-        }
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string Username = txtUsername.Text;

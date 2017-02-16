@@ -32,4 +32,3 @@ D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynh
 D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Properties.Resources.resources
 D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Login.resources
 D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csproj.GenerateResource.Cache
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Register.resources
