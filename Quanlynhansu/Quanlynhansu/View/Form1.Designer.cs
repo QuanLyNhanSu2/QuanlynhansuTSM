@@ -82,25 +82,25 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1198, 93);
+            this.panel1.Size = new System.Drawing.Size(1198, 46);
             this.panel1.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 117);
+            this.panel2.Location = new System.Drawing.Point(0, 70);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(210, 328);
+            this.panel2.Size = new System.Drawing.Size(210, 375);
             this.panel2.TabIndex = 2;
             // 
             // pnlmain
             // 
             this.pnlmain.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlmain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlmain.Location = new System.Drawing.Point(210, 117);
+            this.pnlmain.Location = new System.Drawing.Point(210, 70);
             this.pnlmain.Name = "pnlmain";
-            this.pnlmain.Size = new System.Drawing.Size(988, 328);
+            this.pnlmain.Size = new System.Drawing.Size(988, 375);
             this.pnlmain.TabIndex = 3;
             // 
             // Form1
