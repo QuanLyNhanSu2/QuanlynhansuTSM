@@ -34,7 +34,7 @@ namespace Quanlynhansu
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
         {
             pnl_Quanlynguoidung.Controls.Clear();
             Nhansu ns = new Nhansu();
@@ -42,7 +42,7 @@ namespace Quanlynhansu
             pnl_Quanlynguoidung.Controls.Add(ns);
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click_1(object sender, EventArgs e)
         {
             pnl_Quanlynguoidung.Controls.Clear();
             Doimatkhau dmk = new Doimatkhau();
@@ -50,12 +50,18 @@ namespace Quanlynhansu
             pnl_Quanlynguoidung.Controls.Add(dmk);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
             pnl_Quanlynguoidung.Controls.Clear();
             Thongtintaikhoan tttk = new Thongtintaikhoan();
             tttk.Dock = DockStyle.Fill;
             pnl_Quanlynguoidung.Controls.Add(tttk);
         }
+
+        private void panel2_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+       
     }
 }
