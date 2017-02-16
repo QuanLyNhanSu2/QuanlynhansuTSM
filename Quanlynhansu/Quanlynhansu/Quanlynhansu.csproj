@@ -48,8 +48,6 @@
   <ItemGroup>
     <Compile Include="Controller\NhanvienController.cs" />
     <Compile Include="Controller\UserController.cs" />
-    <Compile Include="Core\ControllerBase.cs" />
-    <Compile Include="Core\ModelBase.cs" />
     <Compile Include="Helper\DataAccess.cs" />
     <Compile Include="Model\Nhanvien.cs" />
     <Compile Include="Model\User.cs" />
