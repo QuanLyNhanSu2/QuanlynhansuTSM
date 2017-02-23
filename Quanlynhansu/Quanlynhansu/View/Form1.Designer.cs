@@ -31,7 +31,17 @@
             this.pnlmain = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.pnl_Quanlynguoidung = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.pnl_danhmuc = new System.Windows.Forms.Panel();
+            this.pnl_HuongDan = new System.Windows.Forms.Panel();
+            this.btHuongDan = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -41,21 +51,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.pnl_danhmuc = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pnl_Quanlynguoidung = new System.Windows.Forms.Panel();
             this.pnlmain.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.pnl_HuongDan.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlmain
@@ -83,16 +85,7 @@
             // tabPage1
             // 
             this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.label9);
-            this.tabPage1.Controls.Add(this.label8);
-            this.tabPage1.Controls.Add(this.label7);
-            this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Controls.Add(this.pnl_HuongDan);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -100,105 +93,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Home";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(802, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(89, 28);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Hướng dẫn";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(451, 284);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(114, 17);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Ninh Thị Nguyên";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(451, 313);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(125, 17);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Nguyễn Đức Mạnh";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(451, 255);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 17);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Hà Thị Quyết";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(451, 284);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 17);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "label2";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(451, 225);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 17);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Phí Thị Kim Liên";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(451, 198);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 17);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Đào Văn Tuyền";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(451, 166);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(117, 17);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Ngô Xuân Dương";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(398, 129);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 24);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Thành viên : ";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(349, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(340, 31);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Phần mềm quản lý nhân sự";
             // 
             // tabPage2
             // 
@@ -214,34 +108,14 @@
             this.tabPage2.Text = "Quản lý người dùng";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // panel2
+            // pnl_Quanlynguoidung
             // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(3, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1066, 61);
-            this.panel2.TabIndex = 2;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint_1);
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tabPage3.Controls.Add(this.pnl_danhmuc);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1074, 533);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Quản lý nhân sự";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // pnl_danhmuc
-            // 
-            this.pnl_danhmuc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_danhmuc.Location = new System.Drawing.Point(3, 3);
-            this.pnl_danhmuc.Name = "pnl_danhmuc";
-            this.pnl_danhmuc.Size = new System.Drawing.Size(1066, 525);
-            this.pnl_danhmuc.TabIndex = 0;
+            this.pnl_Quanlynguoidung.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnl_Quanlynguoidung.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_Quanlynguoidung.Location = new System.Drawing.Point(210, 64);
+            this.pnl_Quanlynguoidung.Name = "pnl_Quanlynguoidung";
+            this.pnl_Quanlynguoidung.Size = new System.Drawing.Size(859, 464);
+            this.pnl_Quanlynguoidung.TabIndex = 4;
             // 
             // panel1
             // 
@@ -284,14 +158,152 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // pnl_Quanlynguoidung
+            // panel2
             // 
-            this.pnl_Quanlynguoidung.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnl_Quanlynguoidung.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_Quanlynguoidung.Location = new System.Drawing.Point(210, 64);
-            this.pnl_Quanlynguoidung.Name = "pnl_Quanlynguoidung";
-            this.pnl_Quanlynguoidung.Size = new System.Drawing.Size(859, 464);
-            this.pnl_Quanlynguoidung.TabIndex = 4;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1066, 61);
+            this.panel2.TabIndex = 2;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint_1);
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage3.Controls.Add(this.pnl_danhmuc);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1074, 533);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Quản lý nhân sự";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // pnl_danhmuc
+            // 
+            this.pnl_danhmuc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_danhmuc.Location = new System.Drawing.Point(3, 3);
+            this.pnl_danhmuc.Name = "pnl_danhmuc";
+            this.pnl_danhmuc.Size = new System.Drawing.Size(1066, 525);
+            this.pnl_danhmuc.TabIndex = 0;
+            // 
+            // pnl_HuongDan
+            // 
+            this.pnl_HuongDan.Controls.Add(this.btHuongDan);
+            this.pnl_HuongDan.Controls.Add(this.label9);
+            this.pnl_HuongDan.Controls.Add(this.label8);
+            this.pnl_HuongDan.Controls.Add(this.label7);
+            this.pnl_HuongDan.Controls.Add(this.label6);
+            this.pnl_HuongDan.Controls.Add(this.label5);
+            this.pnl_HuongDan.Controls.Add(this.label4);
+            this.pnl_HuongDan.Controls.Add(this.label3);
+            this.pnl_HuongDan.Controls.Add(this.label2);
+            this.pnl_HuongDan.Controls.Add(this.label1);
+            this.pnl_HuongDan.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_HuongDan.Location = new System.Drawing.Point(3, 3);
+            this.pnl_HuongDan.Name = "pnl_HuongDan";
+            this.pnl_HuongDan.Size = new System.Drawing.Size(1066, 525);
+            this.pnl_HuongDan.TabIndex = 0;
+            // 
+            // btHuongDan
+            // 
+            this.btHuongDan.Location = new System.Drawing.Point(730, 16);
+            this.btHuongDan.Name = "btHuongDan";
+            this.btHuongDan.Size = new System.Drawing.Size(89, 30);
+            this.btHuongDan.TabIndex = 12;
+            this.btHuongDan.Text = "Hướng dẫn";
+            this.btHuongDan.UseVisualStyleBackColor = true;
+            this.btHuongDan.Click += new System.EventHandler(this.btHuongDan_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(379, 294);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(114, 17);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "Ninh Thị Nguyên";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(379, 323);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(125, 17);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Nguyễn Đức Mạnh";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(379, 265);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(92, 17);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Hà Thị Quyết";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(379, 294);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 17);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "label2";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(379, 235);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(110, 17);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Phí Thị Kim Liên";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(379, 208);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(107, 17);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Đào Văn Tuyền";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(379, 176);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(117, 17);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Ngô Xuân Dương";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(326, 139);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(120, 24);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Thành viên : ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(277, 68);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(340, 31);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Phần mềm quản lý nhân sự";
             // 
             // Form1
             // 
@@ -305,10 +317,11 @@
             this.pnlmain.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.pnl_HuongDan.ResumeLayout(false);
+            this.pnl_HuongDan.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -319,7 +332,15 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel pnl_danhmuc;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel pnl_Quanlynguoidung;
+        private System.Windows.Forms.Panel pnl_HuongDan;
+        private System.Windows.Forms.Button btHuongDan;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -329,13 +350,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel pnl_danhmuc;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel pnl_Quanlynguoidung;
     }
 }
 

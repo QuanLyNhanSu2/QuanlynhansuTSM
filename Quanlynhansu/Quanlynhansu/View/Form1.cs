@@ -62,6 +62,13 @@ namespace Quanlynhansu
         {
 
         }
-       
+
+        private void btHuongDan_Click(object sender, EventArgs e)
+        {
+            pnl_HuongDan.Controls.Clear();
+            HuongDanSuDung hd = new HuongDanSuDung();
+            hd.Dock = DockStyle.Fill;
+            pnl_HuongDan.Controls.Add(hd);
+        }
     }
 }
