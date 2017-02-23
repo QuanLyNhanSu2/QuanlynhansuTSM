@@ -71,6 +71,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="View\HuongDanSuDung.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -94,6 +95,13 @@
     </Compile>
     <Compile Include="View\Thongtintaikhoan.Designer.cs">
       <DependentUpon>Thongtintaikhoan.cs</DependentUpon>
+=======
+    <Compile Include="View\LuongCongTy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\LuongCongTy.Designer.cs">
+      <DependentUpon>LuongCongTy.cs</DependentUpon>
+>>>>>>> e984245d60d1c48e9d857bbd8c4f8f849b32f965
     </Compile>
     <EmbeddedResource Include="View\Danhmuc.resx">
       <DependentUpon>Danhmuc.cs</DependentUpon>
@@ -113,6 +121,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="View\HuongDanSuDung.resx">
       <DependentUpon>HuongDanSuDung.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +133,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Thongtintaikhoan.resx">
       <DependentUpon>Thongtintaikhoan.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="View\LuongCongTy.resx">
+      <DependentUpon>LuongCongTy.cs</DependentUpon>
+>>>>>>> e984245d60d1c48e9d857bbd8c4f8f849b32f965
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

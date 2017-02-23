@@ -24,7 +24,7 @@ namespace Quanlynhansu.View
 
         private void treeView1_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
-            webBrowser1.Navigate("huongdandangnhap.")
+            webBrowser1.Navigate("huongdandangnhap.");
         }
     }
 }
