@@ -20,24 +20,28 @@ namespace Quanlynhansu.View
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnThem_Click(object sender, EventArgs e)
         {
-           //reset all of the control textbox,...
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Nhanvien nv = new Nhanvien();
-            //nv..... = .....
+            Nhanvien nv = new Nhanvien(
+                                    int.Parse(txtManhanvien.Text),
+                                    txtHoten.Text,
+                                    cmbGioitinh.Text,
+                                    dtpNgaysinh.Text,
+                                    txtNoisinh.Text,
+                                    int.Parse(txtDienthoai.Text),
+                                    txtHoKhau.Text,
+                                    txtChoohiennay.Text,
+                                    int.Parse(txtSoBHYT.Text),
+                                    int.Parse(txtSotheATM.Text),
+                                    cmbDantoc.Text,
+                                    cmbTongiao.Text,
+                                    int.Parse(txtMaphongban.Text),
+                                    txtChucvu.Text,
+                                    int.Parse(txtSoCMND.Text),
+                                    rtbGhichu.Text
+                                    );
             nvController.ThemNhanvien(nv);
+            MessageBox.Show("Them Thanh Cong Hoc Sinh Moi");
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Nhanvien nv = new Nhanvien();
-            //nv..... = .....
-            nvController.SuaNhanvien(nv);
-        }
-        //....
     }
 }

@@ -35,3 +35,17 @@ D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynh
 D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Nhansu.resources
 D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Doimatkhau.resources
 D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Thongtintaikhoan.resources
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe.config
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.exe
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.pdb
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csprojResolveAssemblyReference.cache
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Danhmuc.resources
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Doimatkhau.resources
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Form1.resources
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Properties.Resources.resources
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Login.resources
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Nhansu.resources
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Thongtintaikhoan.resources
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csproj.GenerateResource.Cache
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe
+H:\Quản Lý  Nhân Sự\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.pdb
