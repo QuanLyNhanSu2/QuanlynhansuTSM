@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Quanlynhansu.Helper
 {
@@ -12,7 +13,7 @@ namespace Quanlynhansu.Helper
     {
         static string strconnection = "";
         static SqlConnection con = new SqlConnection(strconnection);
-        public static DataTable Query(string strsql,params SqlParameter[] param)
+        public static DataTable Query(string strsql, params SqlParameter[] param)
         {
             DataTable dt = new DataTable();
             SqlDataAdapter da = null;
@@ -33,7 +34,7 @@ namespace Quanlynhansu.Helper
             return dt;
         }
 
-        public static void NonQuery(string strsql, params SqlParameter[] param)
+        public static bool NonQuery(string strsql, params SqlParameter[] param)
         {
             SqlCommand cmd = null;
             con.Open();
@@ -47,8 +48,18 @@ namespace Quanlynhansu.Helper
                 cmd.CommandType = CommandType.StoredProcedure;
                 param.ToList().ForEach(x => cmd.Parameters.Add(x));
             }
-            cmd.ExecuteNonQuery();
-            con.Close();
+            try
+            {
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                con.Close();
+                return false;
+            }
         }
     }
 }

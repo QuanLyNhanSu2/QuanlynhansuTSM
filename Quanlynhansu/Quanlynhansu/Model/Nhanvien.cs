@@ -6,66 +6,24 @@ using System.Threading.Tasks;
 
 namespace Quanlynhansu.Model
 {
-   
-
-    public class Nhanvien
+    class Nhanvien : ModelBase
     {
-        public int Manhanvien { get; set; }
-        public string Hoten { get; set; }
-        public bool Gioitinh { get; set; }
-        public DateTime Ngaysinh { get; set; }
-        public string Noisinh { get; set; }
-        public int Dienthoai { get; set; }
-        public string Hokhau { get; set; }
-        public string Choohiennay { get; set; }
-        public int SoBHYT { get; set; }
-        public int SotheATM { get; set; }
-        public string Dantoc { get; set; }
-        public string Tongiao { get; set; }
-        public int Maphongban { get; set; }
-        public string Chucvu { get; set; }
-        public int SoCMND { get; set; }
-        public string Ghichu { get; set; }
-        public Nhanvien()
-        {
-        }
-
-        public Nhanvien(
-                        int _Manhanvien,
-                        string _Hoten,
-                        bool _Gioitinh,
-                        DateTime _Ngaysinh,
-                        string _Noisinh,
-                        int _Dienthoai,
-                        string _Hokhau,
-                        string _Choohiennay,
-                        int _SoBHYT,
-                        int _SotheATM,
-                        string _Dantoc,
-                        string _Tongiao,
-                        int _Maphongban,
-                        string _Chucvu,
-                        int _SoCMND,
-                        string _Ghichu
-                        )
-        {
-            this.Manhanvien = _Manhanvien;
-            this.Hoten = _Hoten;
-            this.Gioitinh = _Gioitinh;
-            this.Ngaysinh = _Ngaysinh;
-            this.Noisinh = _Noisinh;
-            this.Dienthoai = _Dienthoai;
-            this.Hokhau = _Hokhau;
-            this.Choohiennay = _Choohiennay;
-            this.SoBHYT = _SoBHYT;
-            this.SotheATM = _SotheATM;
-            this.Dantoc = _Dantoc;
-            this.Tongiao = _Tongiao;
-            this.Maphongban = _Maphongban;
-            this.Chucvu = _Chucvu;
-            this.SoCMND = _SoCMND;
-            this.Ghichu = _Ghichu;
-        }
-
+        public int NhanvienID { get { return GetINT(0); } set { SetVal(0, value); } }
+        public string Ten { get { return GetSTR(1); } set { SetVal(1, value); } }
+        public string Gioitinh { get { return GetSTR(2); } set { SetVal(2, value); } }
+        public int SoCMND { get { return GetINT(3); } set { SetVal(3, value); } }
+        public DateTime Ngaysinh { get { return GetDT(4); } set { SetVal(4, value); } }
+        public string Noisinh { get { return GetSTR(5); } set { SetVal(5, value); } }
+        public string Dienthoai { get { return GetSTR(6); } set { SetVal(6, value); } }
+        public string Hokhau { get { return GetSTR(7); } set { SetVal(7, value); } }
+        public string Choohiennay { get { return GetSTR(8); } set { SetVal(8, value); } }
+        public DateTime Ngayvaolam { get { return GetDT(9); } set { SetVal(9, value); } }
+        public string SotheATM { get { return GetSTR(10); } set { SetVal(10, value); } }
+        public int DantocID { get { return GetINT(11); } set { SetVal(11, value); } }
+        public int TongiaoID { get { return GetINT(12); } set { SetVal(12, value); } }
+        public int PhongbanID { get { return GetINT(13); } set { SetVal(13, value); } }
+        public int ChucvuID { get { return GetINT(14); } set { SetVal(14, value); } }
+        public int BaohiemID { get { return GetINT(15); } set { SetVal(15, value); } }
+        public string Ghichu { get { return GetSTR(16); } set { SetVal(16, value); } }
     }
 }

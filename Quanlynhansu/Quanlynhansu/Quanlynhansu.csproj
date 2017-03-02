@@ -49,7 +49,13 @@
     <Compile Include="Controller\NhanvienController.cs" />
     <Compile Include="Controller\UserController.cs" />
     <Compile Include="Helper\DataAccess.cs" />
+    <Compile Include="Model\Baohiem.cs" />
+    <Compile Include="Model\Chucvu.cs" />
+    <Compile Include="Model\Dantoc.cs" />
+    <Compile Include="Model\ModelBase.cs" />
     <Compile Include="Model\Nhanvien.cs" />
+    <Compile Include="Model\Phongban.cs" />
+    <Compile Include="Model\Tongiao.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="View\Danhmuc.cs">
       <SubType>UserControl</SubType>
