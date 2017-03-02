@@ -13,6 +13,7 @@ namespace Quanlynhansu
 {
     public partial class Form1 : Form
     {
+        public HDSD hd = new HDSD();
         public Form1()
         {
             InitializeComponent();
@@ -57,18 +58,9 @@ namespace Quanlynhansu
             tttk.Dock = DockStyle.Fill;
             pnl_Quanlynguoidung.Controls.Add(tttk);
         }
-
-        private void panel2_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void btHuongDan_Click(object sender, EventArgs e)
         {
-            pnl_HuongDan.Controls.Clear();
-            HuongDanSuDung hd = new HuongDanSuDung();
-            hd.Dock = DockStyle.Fill;
-            pnl_HuongDan.Controls.Add(hd);
+            hd.ShowDialog();
         }
     }
 }

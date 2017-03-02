@@ -71,12 +71,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-    <Compile Include="View\HuongDanSuDung.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="View\HDSD.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\HuongDanSuDung.Designer.cs">
-      <DependentUpon>HuongDanSuDung.cs</DependentUpon>
+    <Compile Include="View\HDSD.Designer.cs">
+      <DependentUpon>HDSD.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Login.cs">
       <SubType>Form</SubType>
@@ -95,13 +94,6 @@
     </Compile>
     <Compile Include="View\Thongtintaikhoan.Designer.cs">
       <DependentUpon>Thongtintaikhoan.cs</DependentUpon>
-=======
-    <Compile Include="View\LuongCongTy.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="View\LuongCongTy.Designer.cs">
-      <DependentUpon>LuongCongTy.cs</DependentUpon>
->>>>>>> e984245d60d1c48e9d857bbd8c4f8f849b32f965
     </Compile>
     <EmbeddedResource Include="View\Danhmuc.resx">
       <DependentUpon>Danhmuc.cs</DependentUpon>
@@ -121,9 +113,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-    <EmbeddedResource Include="View\HuongDanSuDung.resx">
-      <DependentUpon>HuongDanSuDung.cs</DependentUpon>
+    <EmbeddedResource Include="View\HDSD.resx">
+      <DependentUpon>HDSD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -133,11 +124,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Thongtintaikhoan.resx">
       <DependentUpon>Thongtintaikhoan.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="View\LuongCongTy.resx">
-      <DependentUpon>LuongCongTy.cs</DependentUpon>
->>>>>>> e984245d60d1c48e9d857bbd8c4f8f849b32f965
     </EmbeddedResource>
+    <None Include="HuongDanSuDung\them.mht" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -151,9 +139,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="HuongDanSuDung\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
