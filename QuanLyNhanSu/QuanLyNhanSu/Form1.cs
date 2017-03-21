@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Quanlynhansu.View
+namespace QuanLyNhanSu
 {
-    public partial class Nhansu : UserControl
+    public partial class Form1 : Form
     {
-        public Nhansu()
+        public Form1()
         {
             InitializeComponent();
         }
