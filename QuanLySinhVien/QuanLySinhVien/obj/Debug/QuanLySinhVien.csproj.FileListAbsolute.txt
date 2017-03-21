@@ -1,1 +1,11 @@
 E:\Thuc Tap Nhom\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe.config
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe.config
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.pdb
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.csprojResolveAssemblyReference.cache
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.Form1.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.Properties.Resources.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.View.frmLogin.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.GenerateResource.Cache
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb

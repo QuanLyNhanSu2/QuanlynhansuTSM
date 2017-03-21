@@ -19,7 +19,15 @@ namespace QuanLySinhVien
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            View.frmLogin frm = new View.frmLogin();
+            frm.StartPosition = FormStartPosition.CenterScreen;
+            frm.FormClosed += Frm_FormClosed;
+            frm.Show();
+            this.Hide();
+        }
+        private void Frm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
