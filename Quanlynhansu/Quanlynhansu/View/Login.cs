@@ -7,41 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Quanlynhansu.View;
-using Quanlynhansu.Model;
-using Quanlynhansu.Controller;
-namespace Quanlynhansu.View
+
+namespace QuanLyNhanSu.View
 {
-    public partial class Login : Form
+    public partial class frmLogin : Form
     {
-        public Login()
+        private frmQuanLyNhanSu frm = new frmQuanLyNhanSu();
+        private frmResetPassword frmRset = new frmResetPassword();
+        public frmLogin()
         {
             InitializeComponent();
         }
-        
-        UserController userController = new UserController();
-        private void Login_Load(object sender, EventArgs e)
+        private void btLogin_Click(object sender, EventArgs e)
         {
-
+            frm.StartPosition = FormStartPosition.CenterScreen;
+            frm.FormClosed += Frm_FormClosed;
+            frm.Show();
+            this.Hide();
         }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            string Username = txtUsername.Text;
-            string Password = txtPassword.Text;
-            if (userController.Login(new User(Username, Password)))
-            {
-                Form1 frm = new Form1();
-                frm.StartPosition = FormStartPosition.CenterScreen;
-                frm.FormClosed += Frm_FormClosed;
-                frm.Show();
-                this.Hide();
-            }
-        }
-
         private void Frm_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Close();
+        }
+
+        private void llbQuenMatKhau_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmRset.ShowDialog();
         }
     }
 }

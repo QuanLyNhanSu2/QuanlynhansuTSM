@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Quanlynhansu.View;
 
-namespace Quanlynhansu
+namespace QuanLyNhanSu
 {
     static class Program
     {
@@ -17,9 +16,7 @@ namespace Quanlynhansu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Login lg = new Login();
-            lg.StartPosition = FormStartPosition.CenterScreen;
-            Application.Run(lg);
+            Application.Run(new View.frmLogin());
         }
     }
 }

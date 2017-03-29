@@ -1,67 +1,21 @@
-H:\Quản lý nhân sự\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe.config
-H:\Quản lý nhân sự\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe
-H:\Quản lý nhân sự\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.pdb
-H:\Quản lý nhân sự\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csprojResolveAssemblyReference.cache
-H:\Quản lý nhân sự\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Form1.resources
-H:\Quản lý nhân sự\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Properties.Resources.resources
-H:\Quản lý nhân sự\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csproj.GenerateResource.Cache
-H:\Quản lý nhân sự\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.exe
-H:\Quản lý nhân sự\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.pdb
-H:\Quản lý nhân sự\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Danhmuc.resources
-D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe.config
-D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.exe
-D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.pdb
-D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe
-D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.pdb
-D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csprojResolveAssemblyReference.cache
-D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Danhmuc.resources
-D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Form1.resources
-D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Properties.Resources.resources
-D:\Thực tập nhóm_TH13\Quản lý nhân sự\Quanlynhansu.git\trunk\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csproj.GenerateResource.Cache
-C:\Users\User\Desktop\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe.config
-C:\Users\User\Desktop\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.exe
-C:\Users\User\Desktop\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\QuanlynhansuTSM-622d4b5ab689e750acb6e50fef92e1a429cfc5d1\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.pdb
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe.config
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.exe
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.pdb
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.pdb
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csprojResolveAssemblyReference.cache
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Danhmuc.resources
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Form1.resources
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Properties.Resources.resources
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Login.resources
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csproj.GenerateResource.Cache
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Nhansu.resources
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Doimatkhau.resources
-D:\Thực tập nhóm_TH13\QuanlynhansuTMS\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Thongtintaikhoan.resources
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe.config
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.exe
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.pdb
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.pdb
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csprojResolveAssemblyReference.cache
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Danhmuc.resources
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Doimatkhau.resources
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Form1.resources
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Properties.Resources.resources
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.HuongDanSuDung.resources
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Login.resources
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Nhansu.resources
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Thongtintaikhoan.resources
-D:\Thuc Tap Nhom\QuanlynhansuTSM\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csproj.GenerateResource.Cache
-E:\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe.config
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.exe
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.pdb
-E:\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.exe
-E:\Quanlynhansu\Quanlynhansu\bin\Debug\Quanlynhansu.pdb
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csprojResolveAssemblyReference.cache
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Danhmuc.resources
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Doimatkhau.resources
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Form1.resources
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.Properties.Resources.resources
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.HDSD.resources
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Login.resources
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Nhansu.resources
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.View.Thongtintaikhoan.resources
-E:\Quanlynhansu\Quanlynhansu\obj\Debug\Quanlynhansu.csproj.GenerateResource.Cache
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmQuanLyNhanSu.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmLogin.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmResetPassword.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.ThongTinNhanVien.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmThongTinNguoiDung.resources

@@ -1,5 +1,4 @@
-﻿using Quanlynhansu.View;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,58 +8,35 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Quanlynhansu
+namespace QuanLyNhanSu
 {
-    public partial class Form1 : Form
+    public partial class frmQuanLyNhanSu : Form
     {
-        public HDSD hd = new HDSD();
-        public Form1()
+        View.ThongTinNhanVien frmThongTinNhanVien = new View.ThongTinNhanVien();
+        View.frmThongTinNguoiDung frmThongTinNguoiDung = new View.frmThongTinNguoiDung();
+        public frmQuanLyNhanSu()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btClose_Click(object sender, EventArgs e)
         {
-            Danhmuc dm = new Danhmuc();
-            dm.Dock = DockStyle.Fill;
-            pnl_danhmuc.Controls.Add(dm);
-
-            Thongtintaikhoan tttk = new Thongtintaikhoan();
-            tttk.Dock = DockStyle.Fill;
-            pnl_Quanlynguoidung.Controls.Add(tttk);
+            this.Close();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void btThemNhanVien_Click(object sender, EventArgs e)
         {
-
+            frmThongTinNhanVien.ShowDialog();
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
+        private void btThemNguoiDung_Click(object sender, EventArgs e)
         {
-            pnl_Quanlynguoidung.Controls.Clear();
-            Nhansu ns = new Nhansu();
-            ns.Dock = DockStyle.Fill;
-            pnl_Quanlynguoidung.Controls.Add(ns);
+            frmThongTinNguoiDung.ShowDialog();
         }
 
-        private void button5_Click_1(object sender, EventArgs e)
+        private void frmQuanLyNhanSu_Load(object sender, EventArgs e)
         {
-            pnl_Quanlynguoidung.Controls.Clear();
-            Doimatkhau dmk = new Doimatkhau();
-            dmk.Dock = DockStyle.Fill;
-            pnl_Quanlynguoidung.Controls.Add(dmk);
-        }
 
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            pnl_Quanlynguoidung.Controls.Clear();
-            Thongtintaikhoan tttk = new Thongtintaikhoan();
-            tttk.Dock = DockStyle.Fill;
-            pnl_Quanlynguoidung.Controls.Add(tttk);
-        }
-        private void btHuongDan_Click(object sender, EventArgs e)
-        {
-            hd.ShowDialog();
         }
     }
 }
