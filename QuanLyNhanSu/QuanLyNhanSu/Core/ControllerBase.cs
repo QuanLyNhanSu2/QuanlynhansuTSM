@@ -8,9 +8,20 @@ using System.Threading.Tasks;
 
 namespace QuanLyNhanSu.Core
 {
-    class ControllerBase<T> where T : ModelBase, new()
+    interface ViewList<T> where T : ModelBase, new()
     {
-        string InsertProcName, UpdateProcName, DeleteProcName, SearchProcName;
+        List<T> Search(string name);
+        List<T> Load();
+    }
+
+    interface ViewDT<T> where T : ModelBase, new()
+    {
+        DataTable Search(int id);
+        DataTable Load();
+    }
+    class ControllerBase<T> : ViewDT<T> where T : ModelBase, new()
+    {
+        string InsertProcName, UpdateProcName, DeleteProcName, SearchProcName, LoadProcName;
 
         public ControllerBase()
         {
@@ -19,6 +30,7 @@ namespace QuanLyNhanSu.Core
             UpdateProcName = objT.TableName + "_Sua";
             DeleteProcName = objT.TableName + "_Xoa";
             SearchProcName = objT.TableName + "_Timkiem";
+            LoadProcName = objT.TableName + "_Load";
         }
 
         public void Insert(T obj)
@@ -38,7 +50,7 @@ namespace QuanLyNhanSu.Core
         {
             SqlConnection con = new SqlConnection(Dataconfig.ConnectionString);
             con.Open();
-            SqlCommand sc = new SqlCommand(InsertProcName, con);
+            SqlCommand sc = new SqlCommand(UpdateProcName, con);
             sc.CommandType = CommandType.StoredProcedure;
             for (int i = 0; i <= obj.MaxPosModelField; i++)
             {
@@ -51,68 +63,64 @@ namespace QuanLyNhanSu.Core
         {
             SqlConnection con = new SqlConnection(Dataconfig.ConnectionString);
             con.Open();
-            SqlCommand sc = new SqlCommand(InsertProcName, con);
+            SqlCommand sc = new SqlCommand(DeleteProcName, con);
             sc.CommandType = CommandType.StoredProcedure;
             sc.Parameters.Add(new SqlParameter("@" + obj.Fields[0], obj.FieldMap[0]));
             sc.ExecuteNonQuery();
             con.Close();
         }
-        public List<T> Search()
+        public DataTable Search(int id)
         {
-            List<T> LstSearch = new List<T>();
+            DataTable dt = new DataTable();
             using (SqlConnection con = new SqlConnection(Dataconfig.ConnectionString))
             {
                 T objM = new T();
                 SqlCommand sc = new SqlCommand(SearchProcName, con);
                 sc.CommandType = CommandType.StoredProcedure;
-                sc.Parameters.Add(new SqlParameter("@" + objM.Fields[0], objM.FieldMap[0]));
+                sc.Parameters.Add(new SqlParameter("@" + objM.Fields[0], id));
                 SqlDataAdapter da = new SqlDataAdapter(sc);
-                DataTable dt = new DataTable();
                 da.Fill(dt);
-                if(dt.Rows.Count!=0)
-                {
-                    foreach(DataRow dr in dt.Rows)
-                    {
-                        objM.FieldMap = dr.ItemArray;
-                        LstSearch.Add((T)objM.Clone());
-                    }
-                }
             }
 
-            return LstSearch;
+            return dt;
         }
-        public List<T> Query(string query, params SqlParameter[] sp)
+        public DataTable Load()
         {
-            List<T> LstModel = new List<T>();
+            DataTable dt = new DataTable();
+            using (SqlConnection con = new SqlConnection(Dataconfig.ConnectionString))
+            {
+                T objM = new T();
+                SqlCommand sc = new SqlCommand(LoadProcName, con);
+                sc.CommandType = CommandType.StoredProcedure;
+                SqlDataAdapter da = new SqlDataAdapter(sc);
+                da.Fill(dt);
+            }
+
+            return dt;
+        }
+        public DataTable Query(string sql, params SqlParameter[] pr)
+        {
+            DataTable dt = new DataTable();
             using (SqlConnection con = new SqlConnection(Dataconfig.ConnectionString))
             {
                 con.Open();
                 SqlDataAdapter da = null;
-                T objT = new T();
-                if (query.Contains(" "))
+                if (sql.Contains(' '))
                 {
-                    da = new SqlDataAdapter(query, con);
+                    da = new SqlDataAdapter(sql, con);
                 }
                 else
                 {
-                    SqlCommand sc = new SqlCommand(query, con);
+                    SqlCommand sc = new SqlCommand(sql, con);
                     sc.CommandType = CommandType.StoredProcedure;
-                    sc.Parameters.AddRange(sp);
+                    if (pr != null)
+                        pr.ToList().ForEach(x => sc.Parameters.Add(x));
                     da = new SqlDataAdapter(sc);
                 }
-                DataTable dt = new DataTable();
                 da.Fill(dt);
-                if (dt.Rows.Count != 0)
-                {
-                    foreach (DataRow dr in dt.Rows)
-                    {
-                        objT.FieldMap = dr.ItemArray;
-                        LstModel.Add((T)objT.Clone());
-                    }
-                }
                 con.Close();
             }
-            return LstModel;
+            return dt;
         }
     }
 }

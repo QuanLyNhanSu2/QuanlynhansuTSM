@@ -8,6 +8,6 @@ namespace QuanLyNhanSu.Core
 {
     class Dataconfig
     {
-        public static string ConnectionString = @"";
+        public static string ConnectionString = @"Data Source=.\DUONGTHAN;Initial Catalog=QUANLYNHANSU;Integrated Security=True";
     }
 }

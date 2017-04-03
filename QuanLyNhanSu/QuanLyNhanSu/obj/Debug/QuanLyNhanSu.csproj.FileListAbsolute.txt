@@ -6,3 +6,66 @@ D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\o
 D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
 D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmQuanLyNhanSu.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmLogin.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmResetPassword.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.ThongTinNhanVien.resources
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+C:\Users\Lien Xinh Gai\Desktop\git\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmThongTinNguoiDung.resources
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmQuanLyNhanSu.resources
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmLogin.resources
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmResetPassword.resources
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmThongTinNguoiDung.resources
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.ThongTinNhanVien.resources
+C:\Users\User\Desktop\QuanlynhansuTSM-KimLien\QuanlynhansuTSM-KimLien\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmLogin.resources
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmResetPassword.resources
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmThongTinNguoiDung.resources
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.ThongTinNhanVien.resources
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmQuanLyNhanSu.resources
+E:\Quanlynhansu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+E:\Quanlynhansu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+E:\Quanlynhansu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmQuanLyNhanSu.resources
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmLogin.resources
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmResetPassword.resources
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmThongTinNguoiDung.resources
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.ThongTinNhanVien.resources
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.EditThongTinNguoiDung.resources
+E:\Quanlynhansu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmSuaThongTinNhanVien.resources
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmQuanLyNhanSu.resources
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.EditThongTinNguoiDung.resources
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmLogin.resources
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmResetPassword.resources
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmSuaThongTinNhanVien.resources
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmThongTinNguoiDung.resources
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.ThongTinNhanVien.resources
+C:\Users\User\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.EditThongTinNguoiDung.resources
+D:\Thực tập nhóm_TH13\BaiTapLon\QuanlynhansuTSM\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.View.frmSuaThongTinNhanVien.resources
